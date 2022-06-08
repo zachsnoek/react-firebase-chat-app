@@ -1,0 +1,11 @@
+.messages-container {
+    width: 100%;
+    padding: 16px;
+    flex-grow: 1;
+    border: 1px solid var(--color-gray);
+    border-radius: var(--border-radius);
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: column;
+}
