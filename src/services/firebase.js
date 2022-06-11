@@ -53,10 +53,10 @@ function getMessages(roomId, callback) {
             orderBy('timestamp', 'asc')
         ),
         (querySnapshot) => {
-            const messages = [];
-            querySnapshot.forEach((doc) =>
-                messages.push({ id: doc.id, ...doc.data() })
-            );
+            const messages = querySnapshot.docs.map((x) => ({
+                id: x.id,
+                ...x.data(),
+            }));
 
             callback(messages);
         }
