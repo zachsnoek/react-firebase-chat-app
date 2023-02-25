@@ -1,6 +1,6 @@
 # React and Firebase Chat App
 
-This is the project code for [my tutorial on LogRocket](https://blog.logrocket.com/how-to-build-chatroom-app-react-firebase/).
+This is the project code for [my tutorial](https://www.zachsnoek.com/blog/how-to-build-chatroom-app-react-firebase).
 
 If you found my post helpful, please consider supporting my work financially:
 
